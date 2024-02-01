@@ -1,8 +1,8 @@
 {
-  "name": "dub",
+  "name": "QCKL",
   "version": "0.3.0",
   "description": "The official TypeScript library for the Dub API",
-  "author": "Dub <support@dub.co>",
+  "author": "JTLR <support@jtlr.org>",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "type": "commonjs",
