@@ -107,7 +107,7 @@ export class Dub extends Core.APIClient {
       token,
       projectSlug,
       ...opts,
-      baseURL: baseURL || `https://api.dub.co`,
+      baseURL: baseURL || `https://api.qckl.online`,
     };
 
     super({
