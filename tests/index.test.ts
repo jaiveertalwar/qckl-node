@@ -169,13 +169,13 @@ describe('instantiate client', () => {
     test('empty env variable', () => {
       process.env['DUB_BASE_URL'] = ''; // empty
       const client = new Dub({ token: 'My Token', projectSlug: 'dub_project_slug' });
-      expect(client.baseURL).toEqual('https://api.dub.co');
+      expect(client.baseURL).toEqual('https://api.qckl.online');
     });
 
     test('blank env variable', () => {
       process.env['DUB_BASE_URL'] = '  '; // blank
       const client = new Dub({ token: 'My Token', projectSlug: 'dub_project_slug' });
-      expect(client.baseURL).toEqual('https://api.dub.co');
+      expect(client.baseURL).toEqual('https://api.qckl.online');
     });
   });
 
